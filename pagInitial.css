@@ -6,10 +6,52 @@ background-image: url("http://www.bearpaw-blog.de/bilder/wallpaper-maraudeur.jpg
 h1 {
 
 color:white;
+
+
 }
 
 
 h3 {
 
 color: white;
+
+
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+
+.container:hover {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: black;
+  font-size: 31px;
+  position: absolute;
+  top: 50%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.button {
+
+ white-space: nowrap; 
+ position: absolute;
+ transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+top: 70%;
+left:28%;
 }
