@@ -35,13 +35,20 @@ color: white;
   height: 100%;
 }
 
+font-face {
+
+font-family: ElementaryGothic;
+
+src: url(C:\Users\Dual\Desktop\Projectos nous\Project-web-llmm\fonts\ElementaryGothic\Elementary_Gothic.TTF) format(‘truetype’);
+}
 .text {
   white-space: nowrap; 
   color: black;
-  font-size: 31px;
+  font-size: 25px;
+  font-family: Constantia, Tahoma;
   position: absolute;
-  top: 50%;
-  left: 30%;
+  top: 42%;
+  left: 32%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
@@ -61,6 +68,7 @@ left:28%;
   white-space: nowrap; 
   color: White;
   font-size: 28px;
+  
   position: absolute;
   top: 70%;
   left: 28%;
