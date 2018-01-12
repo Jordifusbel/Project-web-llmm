@@ -41,7 +41,7 @@ color: white;
   font-size: 31px;
   position: absolute;
   top: 50%;
-  left: 28%;
+  left: 30%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
@@ -52,6 +52,18 @@ color: white;
  position: absolute;
  transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-top: 70%;
+top: 75%;
 left:28%;
+}
+
+
+.text1 {
+  white-space: nowrap; 
+  color: White;
+  font-size: 28px;
+  position: absolute;
+  top: 70%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
