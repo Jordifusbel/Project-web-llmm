@@ -65,6 +65,7 @@ left:28%;
 
 
 .text1 {
+cursor: url(nat870.cur), pointer;
   white-space: nowrap; 
   color: White;
   font-size: 28px;
@@ -75,3 +76,35 @@ left:28%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+.imageTitle {
+  display: block;
+  width: auto;
+  height: auto;
+
+}
+
+.textTitleh1 {
+cursor: url(nat870.cur), pointer;
+  white-space: nowrap; 
+  color: White;
+  font-size: 20px;
+  position: absolute;
+  top: 9%;
+  left: 11%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);}
+
+.musica {
+display: hidden;
+}
+
+.textTitleh3 {
+cursor: url(nat870.cur), pointer;
+  white-space: nowrap; 
+  color: White;
+  font-size: 18px;
+  position: absolute;
+  top: 14%;
+  left: 12%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);}
