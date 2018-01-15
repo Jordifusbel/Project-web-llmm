@@ -1,0 +1,59 @@
+Body {
+	text-align: left;
+	background-image: url("http://i.imgur.com/15OaI3O.png");	
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	font-family: Courier New;		
+    	}
+	
+	h2.day {
+    text-align: center;
+	color: #ffffff;
+	}
+
+	}
+	div {
+    width: 280px;
+    height: 125px;
+ 	border: 2px solid black;
+ 	margin: 10px;
+ 	padding: 30px;
+ 	text-align: center;
+	background-color: lightgray;
+	}
+	.desc{
+    text-align: left;
+    border-radius: 100px;
+    padding: 20px;
+    margin-top: 20px;
+    align-items: center;
+    display: block;
+	}
+
+	.mainMenu ul {
+		display: inline-flex;
+		padding: 0;
+		margin: 0;
+		font-size: 25px;
+		list-style: none;
+	}
+	.mainMenu a {
+		display: flex;
+		padding: 2em;
+		font-size: 25px;
+		background-color: grey;
+		text-decoration: none;
+		color: white;
+		border: 2px black solid;
+	}
+	.mainMenu a:hover {
+		background-color: white;
+		color: black;
+	}
+	.mainMenu ul li ul {
+		display: none;
+	}
+	.mainMenu ul li a:hover + ul, .mainMenu ul li ul:hover {
+		display: block;
+	}
