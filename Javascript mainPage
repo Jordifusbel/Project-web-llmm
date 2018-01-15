@@ -1,0 +1,29 @@
+	function whiteStyle(x) {
+ 	var element = document.getElementsByClassName(x);
+	for (var i = 0; i < element.length; i++){
+	element[i].style.color = "#ffffff";
+	/* element[i].style.background-color = "black"; */
+		}
+	}
+
+	function reverse(x) {
+ 	var element = document.getElementsByClassName(x);
+	for (var i = 0; i < element.length; i++){
+	element[i].style.color = "black";
+	/* element[i].style.color = "tomato"; */
+		}
+	}
+    /* 
+    var element = document.getElementsByClassName(x);
+    for (var i = 0; i < element.length; i++){
+    }
+    */
+	
+	function showInfo(x) {
+    for (var k = 1; k < 8; k++){
+    document.getElementsByClassID(x).style.display = "none";
+    	}
+    document.getElementsByClassID(x).style.display = "block";
+    	}
+	}
+	
